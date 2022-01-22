@@ -1,0 +1,89 @@
+/********** Base styles **********/
+* {
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}  
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+	color: black;
+	margin-bottom: 10px;
+}
+
+.row {
+    width: 100%;
+}
+
+p {
+	font-size: 22px;
+    padding: 15px 5px 0px 5px;
+	position: relative;
+}
+
+.section { 
+    text-align: justify;
+    background-color: #A9A9A9;
+   	border: 2px solid rgb(149, 149, 149);
+   	margin-top: 18px; 
+   	margin-right: 18px;
+    margin-left: 18px; 
+   	padding: 4px;
+   	position: relative;
+}
+
+span {
+	font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+	border: 2px solid rgb(149, 149, 149);
+	width: 150px;
+	float: right; 
+    top: 0; 
+    right: 0; 
+    margin: 0;
+	position: absolute;
+}
+
+#s1 {
+	background-color: #3385ff;
+	color: whitesmoke;
+}
+#s2 {
+	background-color:#ff80b3;
+	color: whitesmoke;
+}
+#s3 {
+	background-color: #ff8080;
+	color: whitesmoke;
+}
+
+
+
+/****** Desktops *******/
+@media (min-width: 992px) {
+    .desktop-4{
+        width: 33.33%;
+        float: left;
+    }
+}
+
+/****** Tablets *******/
+@media (min-width: 768px) and (max-width: 991px) {
+    .tablet-6{
+        width: 50%;
+        float: left;
+    }
+    .tablet-12{
+        width: 100%;
+        float: left;
+    }
+}
+
+/******* Mobile Phones *******/
+@media (max-width: 767px)  {
+    .mobile-12{
+        width: 100%;
+        float: left;
+    }
+}
